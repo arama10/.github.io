@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #0f0e0e;
+    padding-top: 70px;
+  }
+  
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .menu-item {
+   color: #333;
+   padding: 10px;
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 10px;
+  }
+  
+  .menu-item:hover {
+    background-color: #ddd;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  header {
+    background-color: #09d0df;
+    color: #f1e9f1;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  #habilidades ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #habilidades li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  
+  #experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #experiencia ul li {
+    margin-bottom: 10px;
+  }
+  
+  
+  #proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #proyectos a {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  #proyectos a:hover {
+    text-decoration: underline;
+  }
+  
+  #sociales {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #sociales li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+  
+    font-size: 30px;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  } 
